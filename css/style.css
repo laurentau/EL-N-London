@@ -35,7 +35,7 @@ h6,
 }
 
 .btn-primary {
-    color: #FFFFFF;
+    color: pink;
 }
 
 .border-inner {
@@ -55,7 +55,7 @@ h6,
     bottom: 10px;
     left: 10px;
     background: none;
-    border: 1px solid var(--light);
+    border: 1px solid palevioletred;
     z-index: 0;
 }
 
@@ -97,7 +97,7 @@ h6,
     font-size: 18px;
     font-weight: 500;
     text-transform: uppercase;
-    color: var(--light);
+    color: lightpink;
     outline: none;
     transition: .5s;
 }
@@ -132,7 +132,7 @@ h6,
     border: none;
     outline: none !important;
     padding: 18px 20px 20px 28px;
-    background: #FFFFFF;
+    background: palevioletred;
 }
 
 .btn-play:before {
@@ -145,7 +145,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: pink;
     border-radius: 100%;
     animation: pulse-border 1500ms ease-out infinite;
 }
@@ -160,7 +160,7 @@ h6,
     display: block;
     width: 60px;
     height: 60px;
-    background: #FFFFFF;
+    background: pink;
     border-radius: 100%;
     transition: all 200ms;
 }
@@ -209,8 +209,8 @@ h6,
     z-index: 999;
     font-size: 30px;
     font-weight: normal;
-    color: #FFFFFF;
-    background: #000000;
+    color: pink;
+    background: palevioletred;
     opacity: 1;
 }
 
@@ -250,7 +250,7 @@ h6,
 }
 
 .contact::after {
-    background: linear-gradient (rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/Fireroom-Light-1024x1024.jpg) center center no-repeat;
+    background: linear-gradient (rgba(43, 40, 37, .9), rgba(43, 40, 37, .9)), url(../img/pink.jpg) center center no-repeat;
     background-size: cover;
 }
 
@@ -291,7 +291,7 @@ h6,
     margin: 0 2px;
     width: 10px;
     height: 25px;
-    background: #DDDDDD;
+    background: pink;
     transition: .5s;
 }
 
@@ -310,6 +310,6 @@ h6,
 }
 
 .bg-img {
-    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/bg.jpg) center center no-repeat;
+    background: linear-gradient(rgba(43, 40, 37, .5), rgba(43, 40, 37, .5)), url(../img/Fireroom-Light-1024x1024.jpg) center center no-repeat;
     background-size: cover;
 }
